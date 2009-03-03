@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Firebug logging</string>
+	<string>firebug logging</string>
 	<key>ordering</key>
 	<array>
 		<string>1DA6AFF0-B7C1-414E-96C4-F0281012C6F5</string>

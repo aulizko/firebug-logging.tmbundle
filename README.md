@@ -10,7 +10,7 @@ type `log[tab]`
 and you should receive `console.log('%CURSOR_POSITION%');`
 
 Parametric logging:
-
+-------------------
 type `logp` 
 and you should receive same snippet as above with ability to define which variable to dump into log:
 `console.log('Object: %o', Object)`, where you can replace Object for whatever you want
@@ -25,7 +25,5 @@ Same as above, but you should receive no 'info' command but 'warn'.
 
 Installation:
 =============
-
-`mkdir ~/Library/Application\ Support/TextMate/Bundles/Firebug\ logging.tmbundle\n
-cd ~/Library/Application\ Support/TextMate/Bundles/Firebug\ logging.tmbundle\n
-git clone git@github.com:aulizko/firebug-logging-bundle.git\n`
+`cd /Library/Application\ Support/TextMate/Bundles/`
+`git clone git://github.com/aulizko/firebug-logging.tmbundle.git`
