@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>console.info('$1');
+	<string>console.warn('$1');
 $0</string>
 	<key>name</key>
-	<string>Info level</string>
+	<string>Warn level</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>info</string>
+	<string>warn</string>
 	<key>uuid</key>
-	<string>BAD95E91-3682-4C62-85BE-AF19F7F4132C</string>
+	<string>7509E819-8625-4E6A-8170-B3B462C39F30</string>
 </dict>
 </plist>

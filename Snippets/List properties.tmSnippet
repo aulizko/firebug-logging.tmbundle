@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>console.info('$1');
+	<string>console.dir(${1:window});
 $0</string>
 	<key>name</key>
-	<string>Info level</string>
+	<string>List properties</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>info</string>
+	<string>dir</string>
 	<key>uuid</key>
-	<string>BAD95E91-3682-4C62-85BE-AF19F7F4132C</string>
+	<string>A5C78AD5-E496-4288-9B96-5E9E8EEE7E40</string>
 </dict>
 </plist>

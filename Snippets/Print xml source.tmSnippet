@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>console.info('$1');
+	<string>console.dirxml(${1:document.getElementById('${2:myDiv}')});
 $0</string>
 	<key>name</key>
-	<string>Info level</string>
+	<string>Print xml source</string>
 	<key>scope</key>
 	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>info</string>
+	<string>dirx</string>
 	<key>uuid</key>
-	<string>BAD95E91-3682-4C62-85BE-AF19F7F4132C</string>
+	<string>782B3C13-780C-4AC4-B015-CDF372648E4F</string>
 </dict>
 </plist>
