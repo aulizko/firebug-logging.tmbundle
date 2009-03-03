@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Firebug logging</string>
+	<key>ordering</key>
+	<array>
+		<string>1DA6AFF0-B7C1-414E-96C4-F0281012C6F5</string>
+		<string>E20955B5-A04D-4DA0-B0A7-CE4CF0EF3696</string>
+		<string>A8C058DB-F72B-4C6C-AD62-D6BB5FB214D8</string>
+		<string>BAD95E91-3682-4C62-85BE-AF19F7F4132C</string>
+		<string>0E8CEBD3-D716-41D8-B16F-3C3697BAF040</string>
+	</array>
+	<key>uuid</key>
+	<string>9837B50D-20BD-47D5-8789-2259D1B2D0BF</string>
+</dict>
+</plist>
