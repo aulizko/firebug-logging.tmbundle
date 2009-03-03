@@ -1,0 +1,45 @@
+h1. Overview
+
+Firebug logging bundle for [textmate](http://macromates.org) editor. As a JavaScript developer, I realize that it can be rather annoying to type console.log during project debugging phase, so that I created this bundle for myself. Hope you find it useful too.
+
+This bundle introduces following snippets:
+
+h2. Primitive logging:
+
+type @log[tab]@
+and you should receive @console.log('%CURSOR_POSITION%');@
+
+h2. Parametric logging:
+
+type @logp[tab]@
+should result in the same snippet as above with the ability to define which variable to log:
+@console.log('Object: %o', Object)@, where you can replace @Object@ with whatever you want
+
+h2. Debug level
+
+Same as above, type @debug[tab]@ and you should get @console.debug('Object: %o', Object);@ where Object can be easily customized. It can be useful if you want to use firebug logger output filters.
+
+h2. Info-level logging
+
+Type @info[tab]@ and you should get @console.info('%CURSOR_POSITION');@ so that firebug should add nifty icon for that log message (may be useful with firebug output filters)
+
+h2. Warn-level logging
+
+Same as above, but you should get 'warn' command instead of 'info'. 
+
+h2. List properties of object
+
+type @dir[tab]@ and you should get @console.dir(window);@, where @window@ variable can be easily replaced with whatever you want. Useful for debugging objects, modules, classes, etc.
+
+h2. Print xml source
+
+type @dirx[tab]@ and you should get @console.dirxml(document.getElementById('MyDiv'));@ with cursor at the dom node selection code so that you can easily change it. 
+
+h2. Print stack trace
+
+type @trace[tab]@ and you should get @console.trace();@ which will dump stack trace into firebug log.
+
+h1. Installation:
+
+<pre><code>cd ~/Library/Application\ Support/TextMate/Bundles/
+git clone git://github.com/aulizko/firebug-logging.tmbundle.git</code></pre>
