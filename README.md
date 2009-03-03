@@ -26,6 +26,6 @@ Same as above, but you should receive no 'info' command but 'warn'.
 Installation:
 =============
 
-`mkdir ~/Library/Application\ Support/TextMate/Bundles/Firebug\ logging.tmbundle
-cd ~/Library/Application\ Support/TextMate/Bundles/Firebug\ logging.tmbundle
-git clone git@github.com:aulizko/firebug-logging-bundle.git `
+`mkdir ~/Library/Application\ Support/TextMate/Bundles/Firebug\ logging.tmbundle\n
+cd ~/Library/Application\ Support/TextMate/Bundles/Firebug\ logging.tmbundle\n
+git clone git@github.com:aulizko/firebug-logging-bundle.git\n`
