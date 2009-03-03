@@ -26,4 +26,5 @@ Same as above, but you should receive no 'info' command but 'warn'.
 Installation:
 =============
 `cd /Library/Application\ Support/TextMate/Bundles/`
+
 `git clone git://github.com/aulizko/firebug-logging.tmbundle.git`
